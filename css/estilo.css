@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    background: rgb(147, 147, 199);
+}
+
+.cuadricula {
+    display: grid;
+    grid-template-columns: 75px  75px 75px;
+    grid-template-rows: 40px 40px 40px 40px;
+    border: 2px solid rgb(27, 27, 97);
+    border-radius: 10px;
+    padding: 15px 15px;
+    text-align: center;
+}
+
+.texto {
+    grid-column: span 3;
+    width: 225px;
+    height: 30px;
+    border: 2px solid rgb(27, 27, 97);
+    margin-bottom: 50px;
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+}
+
+label {
+    border: 2px solid rgb(27, 27, 97);
+    text-align: center;
+    content: center;
+
+
+}

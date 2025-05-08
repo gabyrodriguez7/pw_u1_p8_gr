@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="./js/comportamiento.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <nav></nav>
+        <section>
+            <div class="cuadricula">
+                <div id="id_texto" class="texto">
+                    <p></p>
+                </div>
+                <label id="id_1x1" for="">1x1</label>
+                <label id="id_1x2" for="">1x2</label>
+                <label id="id_1x3"for="">1x3</label>
+                <label id="id_2x1" for="">2x1</label>
+                <label id="id_2x2" for="">2x2</label>
+                <label id="id_2x3" for="">2x3</label>
+                <label id="id_3x1" for="">3x1</label>
+                <label id="id_3x2" for="">3x2</label>
+                <label id="id_3x3" for="">3x3</label>
+            </div>
+                <p type="fila"><input id="id_fila" type="number"></p>
+                <p type="columna"><input id="id_columna" type="number"></p>
+
+                <div class="boton"><button onclick="validar()">VER</button></div>
+        </section>
+        <aside></aside>
+
+
+        <footer></footer>
+    </div>
+</body>
+
+</html>
+
+
+<!--Cuadricula con elementos label
+    fila -> input = numero 
+    columna -> input = numero
+    boton(ver)->
+    depende de que numero ingreso debe reemplazar al que corresponde 
+    debe reemplazar el label por un button(simbolo SUMAR los dos numeros, PAR=0 ,IMPAR= X)
+    Si por 3 veces el simbolo coincide  mostrar un mensaje = felicitaciones.
+-->
